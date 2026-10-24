@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ssc14.handy",
+    "module": "window-manager",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "window-manager-1.0.2.jar",
+          "url": "window-manager-1.0.2.jar",
+          "size": 89017,
+          "sha512": "1fc056562313a37f430df237e98fa2708692e72c082721fc1f4f99f391b98f440bd9902bfd56015e9067823a5286022b5cb5aae1b2c7e8c480616509c34943ab",
+          "sha256": "c09383e0e1d287c85ee41990ac9014f642aecd40aad29a13a53cb0f12b43ad7b",
+          "sha1": "c6e71fac0ecc4d5465923328fb35eafc065a99a8",
+          "md5": "e99ab396d499650a00104a9b6ad0251e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.lowdragmc.ldlib2",
+          "module": "ldlib2-neoforge-26.1",
+          "version": {
+            "requires": "26.1.2.43"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "window-manager-1.0.2.jar",
+          "url": "window-manager-1.0.2.jar",
+          "size": 89017,
+          "sha512": "1fc056562313a37f430df237e98fa2708692e72c082721fc1f4f99f391b98f440bd9902bfd56015e9067823a5286022b5cb5aae1b2c7e8c480616509c34943ab",
+          "sha256": "c09383e0e1d287c85ee41990ac9014f642aecd40aad29a13a53cb0f12b43ad7b",
+          "sha1": "c6e71fac0ecc4d5465923328fb35eafc065a99a8",
+          "md5": "e99ab396d499650a00104a9b6ad0251e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "window-manager-1.0.2-sources.jar",
+          "url": "window-manager-1.0.2-sources.jar",
+          "size": 53069,
+          "sha512": "43ea449dbf79bf4db4a5f63802cc7c078e03a84ecb7a1d5ce106cdf3bbc3f7f7306a2f0100eea675e2b8a0670fa8946b79ce8cebfa6d0765549c868932e69c7f",
+          "sha256": "1ab6088e20f3614e344675a6d70dd136b9af69bbaa0f1e9d471b7fd29cb18ae1",
+          "sha1": "fde73c1fe67b354d0a6e79c97c8f39a75aac7407",
+          "md5": "860a88792032bbf809224f86c427763f"
+        }
+      ]
+    }
+  ]
+}
