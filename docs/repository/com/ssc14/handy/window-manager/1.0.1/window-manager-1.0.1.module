@@ -51,13 +51,6 @@
           "version": {
             "requires": "26.1.2.43"
           }
-        },
-        {
-          "group": "top.theillusivec4.curios",
-          "module": "curios-neoforge",
-          "version": {
-            "requires": "15.0.0+26.1.2"
-          }
         }
       ],
       "files": [
